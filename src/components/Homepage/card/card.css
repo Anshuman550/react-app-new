@@ -1,0 +1,45 @@
+.card-container{
+    display: flex;
+    flex-direction:column;
+    background-color: #50502f;
+    border: 2px solid #915656;
+    width: 90%;
+    padding: 10px;
+    place-items: center;
+    justify-content: center;
+}
+/* .card-image{
+    align-self: center;
+    align-content: center;
+} */
+
+.image-div{
+    display:flex;
+    justify-content: center;
+}
+
+.button-container{
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    padding-top: 30px;
+    
+    /*align-items: center;*/
+    
+}
+
+
+
+.button-of-container{
+    background-color: #b34215;
+    width: 100%;
+    height:30px;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+button:hover{
+    pointer-events: fill;
+    background-color: #fff;
+}

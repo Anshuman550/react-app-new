@@ -1,0 +1,73 @@
+.container {
+    max-width: 340px;
+    margin: 30px auto;
+    padding: 40px;
+    border: 3px solid #111111;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #ebc6c6;
+  }
+  /*
+  .div1{
+    background-color: #111111;
+  }*/
+  
+  .container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container label {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .container input {
+    width:93%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 2px solid #9aaf39;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  .aboutInput{
+    width:93%;
+    height:70px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  .genderInput{
+    width:98%;
+    align-self:normal;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .container button {
+    margin-bottom: 0px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .container button:hover {
+    background-color: #0056b3;
+  }
+  
