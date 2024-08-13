@@ -19,7 +19,7 @@ COPY . .
 # Install a simple HTTP server to serve the static files
 #RUN npm install -g serve
 
-# Expose the port the app runs on
+# Expose the port the app runs  on
 EXPOSE 3000
 
 # Start the application using 'serve'
